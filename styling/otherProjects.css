@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  /* change */
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #fff, #d8ddf1);
+  opacity: 0;
+}
+
+.current {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: default;
+}
+
+.notification {
+  z-index: 200;
+  background-color: #2f426b;
+}
+
+nav .left .logo {
+  color: #2563eb;
+}
+
+nav .left .rest-opt {
+  cursor: pointer;
+}
+
+nav .left .rest-opt:hover {
+  /* color: #f87171; */
+  color: #18cde4;
+}
+
+.contact {
+  background-color: #2989b3;
+}
+
+.contact:hover {
+  background-color: #076791;
+}
+
+.container {
+  /* change */
+  /* background-color: #ebdae1; */
+  background-color: #e2e8f0;
+  box-shadow: 0 0 10px 2px #41525e;
+  height: 82%;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container div {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.container div h3 {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 6px;
+  text-align: center;
+}
+
+.container div:hover h3 {
+  display: block;
+}
+
+.no-copy {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.topic {
+  left: 45%;
+  font-size: 20px;
+  background-color: #1e3a8a;
+}
+
+@media (max-width: 431px) {
+  body {
+    background-color: #f8fafc;
+  }
+
+  nav {
+    opacity: 0;
+  }
+
+  .current {
+    background-color: #ccc;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+
+  .nav2 {
+    display: flex;
+    z-index: 200;
+  }
+
+  .nav2 .logo {
+    color: #2563eb;
+  }
+
+  .nav2 .fa-bars {
+    color: #1e3a8a;
+  }
+
+  .nav2 .options-list {
+    background-color: #1b253b;
+  }
+
+  .notification {
+    background-color: #2f426b;
+  }
+
+  .topic {
+    left: 26%;
+    font-size: 20px;
+    background-color: #1e3a8a;
+  }
+
+  .container {
+    padding: 30px 0px;
+    background-color: #e2e8f0;
+  }
+
+  .container div {
+    width: 90%;
+    height: 200px;
+    background-position: center;
+  }
+
+  .container .calculator,
+  .container .to-do-app {
+    height: 230px;
+  }
+
+  .container div:active h3 {
+    display: block;
+    scale: 1;
+  }
+}

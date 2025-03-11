@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  /* change */
+  /* background-color: #fff; */
+  background: linear-gradient(to bottom, #fff, #d8ddf1);
+  opacity: 0;
+}
+
+nav .left .logo {
+  color: #2563eb;
+}
+
+.current {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: default;
+}
+
+nav .left .rest-opt {
+  cursor: pointer;
+}
+
+nav .left .rest-opt:hover {
+  /* color: #f87171; */
+  color: #18cde4;
+}
+
+.contact {
+  background-color: #2989b3;
+}
+
+.contact:hover {
+  background-color: #076791;
+}
+
+.skill-container,
+.skill-container-2 div {
+  will-change: transform;
+}
+
+.box {
+  background-color: #bfdbfe;
+  border: 0.5px solid #64748b;
+}
+
+.box h1 {
+  color: #1e3a8a;
+}
+
+.box p {
+  color: #343d4b;
+  text-align: center;
+}
+
+.skill-container {
+  background-color: #e2e8f0;
+}
+
+.skill-container-2 {
+  background-color: #e2e8f0;
+  border-color: #8694a2;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.no-copy {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.heading {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+@media (max-width: 431px) {
+  body {
+    min-height: 120vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 12px;
+    background-color: #f8fafc;
+  }
+
+  nav {
+    opacity: 0;
+  }
+
+  .current {
+    background-color: #ccc;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+
+  .nav2 {
+    display: flex;
+    z-index: 200;
+  }
+
+  .nav2 .options-list {
+    background-color: #1b253b;
+  }
+
+  .nav2 .logo {
+    color: #2563eb;
+  }
+
+  .nav2 .fa-bars {
+    color: #1e3a8a;
+  }
+
+  .image {
+    opacity: 0;
+  }
+
+  .skill-container {
+    background-color: #e2e8f0;
+  }
+
+  .skill-container-2 {
+    background-color: #e2e8f0;
+    border-color: #8694a2;
+  }
+
+  .heading {
+    background-color: #1e3a8a;
+    color: white;
+  }
+
+  .box {
+    height: 180px;
+    width: 140px;
+    padding: 6px;
+    background-color: #bfdbfe;
+    border: 0.5px solid #64748b;
+  }
+
+  .box h1 {
+    color: #1e3a8a;
+  }
+
+  .box p {
+    color: #343d4b;
+    text-align: center;
+  }
+}
