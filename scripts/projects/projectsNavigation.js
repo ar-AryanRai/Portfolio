@@ -16,9 +16,7 @@ prodLinks.forEach((link) => {
     else if (targetClass.contains("space"))
       navigateTo2("https://ar-aryanrai.github.io/CosmicCart/");
     else if (targetClass.contains("ems"))
-      navigateTo2(
-        "https://github.com/ar-AryanRai/EMS-Employee-Management-System"
-      );
+      navigateTo2("https://staffsync-ems.netlify.app/");
     else if (targetClass.contains("cart"))
       navigateTo2("https://github.com/ar-AryanRai/Cart-ReactJS");
     else if (targetClass.contains("sorting"))
