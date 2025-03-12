@@ -22,7 +22,7 @@ prodLinks.forEach((link) => {
     else if (targetClass.contains("clock"))
       navigateTo2("https://ar-aryanrai.github.io/Clock/");
     else if (targetClass.contains("game"))
-      navigateTo2("https://github.com/ar-AryanRai/Bug-Bash");
+      navigateTo2("https://bug-bash.netlify.app/");
     else if (targetClass.contains("carousel"))
       navigateTo2("https://ar-aryanrai.github.io/Slider/");
     else if (targetClass.contains("mouse"))
@@ -30,10 +30,10 @@ prodLinks.forEach((link) => {
     else if (targetClass.contains("color-flipper"))
       navigateTo2("https://ar-aryanrai.github.io/Color-Flipper/");
     else if (targetClass.contains("bmi-calc"))
-      navigateTo2("https://github.com/ar-AryanRai/bmi-Calculator-React");
+      navigateTo2("https://fit-calc.netlify.app/");
     else if (targetClass.contains("landing-page"))
       navigateTo2("https://ar-aryanrai.github.io/Landing-page/");
     else if (targetClass.contains("api"))
-      navigateTo2("https://github.com/ar-AryanRai/API-Fetch");
+      navigateTo2("https://apifetching-app.netlify.app/");
   });
 });
