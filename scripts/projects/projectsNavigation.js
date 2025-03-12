@@ -18,7 +18,7 @@ prodLinks.forEach((link) => {
     else if (targetClass.contains("ems"))
       navigateTo2("https://staffsync-ems.netlify.app/");
     else if (targetClass.contains("cart"))
-      navigateTo2("https://github.com/ar-AryanRai/Cart-ReactJS");
+      navigateTo2("https://co-cart.netlify.app/");
     else if (targetClass.contains("sorting"))
       navigateTo2("https://ar-aryanrai.github.io/Sorting-Visualizer/");
   });
