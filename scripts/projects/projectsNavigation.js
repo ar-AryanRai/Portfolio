@@ -1,5 +1,5 @@
 const prodLinks = document.querySelectorAll(
-  ".36studio, .space, .ems, .cart, .sorting"
+  ".studio, .space, .ems, .cart, .sorting"
 );
 
 function navigateTo2(path) {
@@ -11,7 +11,7 @@ prodLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
     let targetClass = event.target.classList;
 
-    if (targetClass.contains("36studio"))
+    if (targetClass.contains("studio"))
       navigateTo2("https://36studio-clone.netlify.app/");
     else if (targetClass.contains("space"))
       navigateTo2("https://cosmic-cart.netlify.app/");
