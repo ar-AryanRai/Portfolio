@@ -14,7 +14,7 @@ prodLinks.forEach((link) => {
     if (targetClass.contains("36studio"))
       navigateTo2("https://36studio-clone.netlify.app/");
     else if (targetClass.contains("space"))
-      navigateTo2("https://ar-aryanrai.github.io/CosmicCart/");
+      navigateTo2("https://cosmic-cart.netlify.app/");
     else if (targetClass.contains("ems"))
       navigateTo2("https://staffsync-ems.netlify.app/");
     else if (targetClass.contains("cart"))
