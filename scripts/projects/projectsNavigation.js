@@ -1,5 +1,5 @@
 const prodLinks = document.querySelectorAll(
-  ".wizardZ, .space, .ems, .cart, .sorting"
+  ".36studio, .space, .ems, .cart, .sorting"
 );
 
 function navigateTo2(path) {
@@ -11,8 +11,8 @@ prodLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
     let targetClass = event.target.classList;
 
-    if (targetClass.contains("wizardZ"))
-      navigateTo2("https://ar-aryanrai.github.io/WizardZ/");
+    if (targetClass.contains("36studio"))
+      navigateTo2("https://36studio-clone.netlify.app/");
     else if (targetClass.contains("space"))
       navigateTo2("https://ar-aryanrai.github.io/CosmicCart/");
     else if (targetClass.contains("ems"))
