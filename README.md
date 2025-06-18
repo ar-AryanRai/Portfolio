@@ -31,3 +31,9 @@ If you'd like to run this project locally:
 git clone https://github.com/ar-AryanRai/Portfolio.git
 cd Portfolio
 ```
+
+---
+
+## 🙋‍♂️ About Me
+Hi, I’m Aryan Rai — passionate about crafting clean and interactive web experiences.
+🎯 [Portfolio](aryan-rai-portfolio.netlify.app) | 💼 [LinkedIn](https://linkedin.com/in/aryanrai823)
