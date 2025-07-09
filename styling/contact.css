@@ -136,16 +136,16 @@ nav .left .rest-opt:hover {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-    padding: 0;
+    padding: 0; 
   }
 
-  .bottom .right-side .handles a div {
+  .bottom .right-side .handles .div1 a div {
     width: 120px;
     padding: 8px 4px;
     background-color: #2563eb;
   }
 
-  .bottom .right-side .handles a div:hover {
+  .bottom .right-side .handles div a div:hover {
     background-color: #1e40af;
   }
 }
