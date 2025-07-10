@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aryan's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styling/home.css">
+  <link rel="icon" href="./images/logo.png">
+  <script src="https://kit.fontawesome.com/33ce17bf2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="overflow-hidden">
+
+  <!--  Navigation bar -->
+  <nav class="absolute lg:right-0 lg:w-[75%] flex lg:justify-between items-center lg:pl-[100px] lg:pr-[40px] h-[10%]">
+
+    <!-- nav options -->
+    <div class="left flex justify-evenly items-center w-[70%] text-gray-400">
+      <div class="current no-copy home">Home</div>
+      <div class="rest-opt no-copy about">About me</div>
+      <div class="logo no-copy text-3xl font-semibold">Aryan.R</div>
+      <div class="rest-opt no-copy skills">Skills</div>
+      <div class="rest-opt no-copy projects">Projects</div>
+    </div>
+
+    <!-- contact me button -->
+    <div
+      class="contact right no-copy text-white lg:px-6 lg:py-2 rounded-3xl font-semibold opacity-0 cursor-pointer active:scale-90">
+      Contact Me
+    </div>
+  </nav>
+
+  <div
+    class="nav2 lg:hidden absolute top-0 w-[100%] flex justify-between items-center lg:pl-[100px] lg:pr-[40px] h-[10%] px-5">
+
+    <div class="logo text-3xl no-copy font-semibold">Aryan.R</div>
+
+    <i class="fa-solid fa-bars fa-xl text-black"></i>
+
+    <div
+      class="options-list hidden absolute right-0 top-0 h-[100vh] w-[50%] bg-[#B8A6BF] flex flex-col pt-[120px] gap-20 items-center text-white">
+      <i class="absolute top-10 right-8 fa-solid fa-xmark fa-xl"></i>
+      <div class="current no-copy home">Home</div>
+      <div class="rest-opt no-copy about">About me</div>
+      <div class="rest-opt no-copy skills">Skills</div>
+      <div class="rest-opt no-copy projects">Projects</div>
+      <div class="contact right no-copy text-white px-6 py-2 rounded-3xl font-semibold cursor-pointer active:scale-90">
+        Contact Me
+      </div>
+    </div>
+
+  </div>
+
+  <div class="blob">
+    <h1 class="my-name no-copy">I'm Aryan Rai!</h1>
+    <p class="role mb-2 no-copy">Frontend Developer</p>
+    <p class="no-copy">Crafting captivating online experiences, I blend aesthetic allure with practical functionality,
+      ensuring seamless
+      user interactions and infusing each project with a touch of digital magic.</p>
+    <button class="contact-me no-copy active:scale-90 ">Get connected</button>
+    <div class="blob1"></div>
+  </div>
+
+  <div class="image absolute right-40 bottom-10 w-[600px] h-[600px]">
+    <img class=" h-[100%]" src="./images/home.jpg" alt="image of working man">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script src="./scripts/home/home.js"></script>
+  <script src="./scripts/navbar/nav.js"></script>
+  <script src="./scripts/navbar/navAnimation.js"></script>
+
+  <script>
+    function contact() {
+      gsap.to("body", {
+        opacity: 0,
+        duration: 0.6,
+        onComplete: () => (window.location.href = "./contact.html"),
+      });
+    }
+  </script>
+
+</body>
+
+</html>
